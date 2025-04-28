@@ -8,7 +8,7 @@ import { VscVscode } from "react-icons/vsc";
 
 export function BentoGridSecondDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] md:p-0 p-4">
+    <BentoGrid className="w-full mx-auto md:auto-rows-[20rem] md:p-0 p-4">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
