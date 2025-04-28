@@ -5,6 +5,7 @@ import { FaCode } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { TbFileCv } from "react-icons/tb";
 import { MdOutlineSpaceDashboard } from "react-icons/md";
+import Link from "next/link";
 
 function HeroSection() {
   const [state, setState] = useState(false);
@@ -48,13 +49,13 @@ function HeroSection() {
                         key={idx}
                         className="text-gray-300 hover:text-slate-100 hover:font-semibold hover:bg-slate-950 p-2 md:pr-5 md:pl-5 rounded-full"
                       >
-                        <a
+                        <Link
                           href={item.path}
-                          className="block md:flex items-center gap-2 md:text-[16px]"
+                          className="block md:flex items-center gap-2 md:text-[16px] cursor-none"
                         >
                           {item.title}
                           {item.icon}
-                        </a>
+                        </Link>
                       </li>
                     );
                   })}
@@ -75,16 +76,20 @@ function HeroSection() {
                 code.
               </p>
               <div className="flex flex-col md:flex-row gap-2 mt-4">
-                <button className="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                   <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                     About Me
                   </span>
                 </button>
-                <button className="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95">
+                <a
+                  href="/UTSAV_PATEL_RESUME.pdf"
+                  download
+                  className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
+                >
                   <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#B931FC] text-white rounded-lg bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                     Download Resume
                   </span>
-                </button>
+                </a>
               </div>
             </div>
             <div className="w-full flex items-center justify-center mt-4 md:mt-0">

@@ -55,7 +55,7 @@ const items = [
     icon: <HiMiniSquare3Stack3D className="h-4 w-4 text-neutral-200" />,
   },
   {
-    title: "Services / What I Do",
+    title: "What I Do",
     description:
       "Building scalable full stack apps, integrating AI, and delivering exceptional UI/UX.",
     header: (

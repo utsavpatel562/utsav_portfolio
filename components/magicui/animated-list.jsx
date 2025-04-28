@@ -43,7 +43,7 @@ export const AnimatedList = React.memo(
 
     return (
       <>
-        <h2 className="text-slate-50 text-center text-2xl md:text-3xl mb-3 font-semibold">
+        <h2 className="text-slate-50 text-center text-2xl md:text-3xl md:mt-0 mt-5 mb-3 font-semibold">
           My Tech Stack
         </h2>
         (
