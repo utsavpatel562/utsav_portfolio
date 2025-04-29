@@ -98,7 +98,10 @@ function ProjectCard() {
   ];
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:p-5">
+      <div
+        className="grid grid-cols-1 md:grid-cols-3 gap-5 md:p-5"
+        id="Projects"
+      >
         {/* Project Card 1 */}
         <div className="bg-zinc-800 w-full h-fit rounded-lg">
           <div className="flex justify-between">
@@ -113,7 +116,11 @@ function ProjectCard() {
                 <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
               </div>
             </div>
-            <a href="#" className="cursor-none">
+            <a
+              href="https://github.com/utsavpatel562/AutoCompose"
+              className="cursor-none"
+              target="_blank"
+            >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
                 autocompose.github.com
               </h2>
@@ -134,12 +141,14 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={autocompose} />
-                <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                  <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                    Live Preview
-                    <MdOutlinePreview className="w-5 h-5" />
-                  </span>
-                </button>
+                <a href="https://auto-compose.vercel.app" target="_blank">
+                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Live Preview
+                      <MdOutlinePreview className="w-5 h-5" />
+                    </span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -158,7 +167,11 @@ function ProjectCard() {
                 <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
               </div>
             </div>
-            <a href="#" className="cursor-none">
+            <a
+              href="https://github.com/utsavpatel562/CareerBoost-AI"
+              className="cursor-none"
+              target="_blank"
+            >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
                 career-boost-ai.github.com
               </h2>
@@ -177,14 +190,16 @@ function ProjectCard() {
                 mock interview application using modern technologies, provide an
                 interactive and realistic interview.
               </p>
-              <div className="flex items-center justify-between mt-5">
+              <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={carrerboost} />
-                <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                  <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                    Live Preview
-                    <MdOutlinePreview className="w-5 h-5" />
-                  </span>
-                </button>
+                <a href="https://career-boost-ai.vercel.app" target="_blank">
+                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Live Preview
+                      <MdOutlinePreview className="w-5 h-5" />
+                    </span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -203,7 +218,11 @@ function ProjectCard() {
                 <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
               </div>
             </div>
-            <a href="#" className="cursor-none">
+            <a
+              href="https://github.com/utsavpatel562/CarConnect"
+              className="cursor-none"
+              target="_blank"
+            >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
                 car-connect.github.com
               </h2>
@@ -222,14 +241,19 @@ function ProjectCard() {
                 full-stack application is designed with performance,
                 scalability, and user engagement in mind.
               </p>
-              <div className="flex items-center justify-between mt-5">
+              <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={carconnect} />
-                <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                  <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                    Live Preview
-                    <MdOutlinePreview className="w-5 h-5" />
-                  </span>
-                </button>
+                <a
+                  href="https://car-connect-marketplace.netlify.app"
+                  target="_blank"
+                >
+                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Live Preview
+                      <MdOutlinePreview className="w-5 h-5" />
+                    </span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -248,7 +272,11 @@ function ProjectCard() {
                 <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
               </div>
             </div>
-            <a href="#" className="cursor-none">
+            <a
+              href="https://github.com/utsavpatel562/Zoom-Clone"
+              className="cursor-none"
+              target="_blank"
+            >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
                 zoom-clone.github.com
               </h2>
@@ -267,14 +295,19 @@ function ProjectCard() {
                 TypeScript, Next.js, Tailwind CSS, Shadcn, GetStream, Clerk, and
                 Node.js.
               </p>
-              <div className="flex items-center justify-between mt-5">
+              <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={zoomclone} />
-                <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                  <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                    Live Preview
-                    <MdOutlinePreview className="w-5 h-5" />
-                  </span>
-                </button>
+                <a
+                  href="https://zoom-clone-iota-six.vercel.app"
+                  target="_blank"
+                >
+                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Live Preview
+                      <MdOutlinePreview className="w-5 h-5" />
+                    </span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -296,6 +329,7 @@ function ProjectCard() {
             <a
               href="https://www.tinkercad.com/things/hMNGaY5Yu2w-home-automation-system"
               className="cursor-none"
+              target="_blank"
             >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
                 home-automation.tinkercad.com
@@ -311,18 +345,23 @@ function ProjectCard() {
                 Home Automation System using Arduino
               </h2>
               <p className="text-slate-100 text-justify mt-1">
-                Featuring an intuitive drag & drop layout builder, save & reuse
-                templates, and custom branding options, all built with a modern
-                tech stack.
+                Home Automation System using Arduino" is a C++-based project
+                developed using Tinkercad. It enables remote control of home
+                appliances like lights, sensor input, etc.
               </p>
-              <div className="flex items-center justify-between mt-5">
+              <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={arduino} />
-                <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                  <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                    Live Preview
-                    <MdOutlinePreview className="w-5 h-5" />
-                  </span>
-                </button>
+                <a
+                  href="https://www.tinkercad.com/things/hMNGaY5Yu2w-home-automation-system"
+                  target="_blank"
+                >
+                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Live Preview
+                      <MdOutlinePreview className="w-5 h-5" />
+                    </span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>

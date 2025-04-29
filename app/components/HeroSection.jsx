@@ -14,7 +14,7 @@ function HeroSection() {
     { title: "About Me", path: "#", icon: <FaRegUser /> },
     { title: "Services", path: "#", icon: <MdOutlineSpaceDashboard /> },
     { title: "Profile", path: "#", icon: <TbFileCv /> },
-    { title: "Projects", path: "#", icon: <FaCode /> },
+    { title: "Projects", path: "/#Projects", icon: <FaCode /> },
     { title: "Contact Me", path: "#", icon: <MdOutlineEmail /> },
   ];
 
