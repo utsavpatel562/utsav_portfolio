@@ -4,6 +4,7 @@ import { BentoGridSecondDemo } from "./components/BentoGridDemo";
 import HeroSection from "./components/HeroSection";
 import AnimatedListDemo from "./components/TechStack";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
+import ProjectCard from "./components/ProjectCard";
 
 export default function Home() {
   return (
@@ -15,8 +16,8 @@ export default function Home() {
    </div>
    <div className="bg-slate-950 p-10">
    <SmoothCursor />
-   <h2 className="text-slate-50 text-center font-semibold md:text-5xl md:mb-15 text-2xl">My Projects</h2>
-    
+   <h2 className="text-slate-50 text-center font-semibold md:text-5xl mb-8 md:mb-15 text-2xl">My Projects</h2>
+    <ProjectCard/>
    </div>
    </>
   );
