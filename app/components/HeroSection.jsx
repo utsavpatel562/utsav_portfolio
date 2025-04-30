@@ -3,19 +3,27 @@ import React, { useEffect, useState } from "react";
 import { FaRegUser } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
-import { TbFileCv } from "react-icons/tb";
 import { MdOutlineSpaceDashboard } from "react-icons/md";
+import { TbCertificate } from "react-icons/tb";
 import Link from "next/link";
 
 function HeroSection() {
   const [state, setState] = useState(false);
 
   const navigation = [
-    { title: "About Me", path: "#", icon: <FaRegUser /> },
-    { title: "Services", path: "#", icon: <MdOutlineSpaceDashboard /> },
-    { title: "Profile", path: "#", icon: <TbFileCv /> },
+    { title: "About Me", path: "/", icon: <FaRegUser /> },
+    {
+      title: "Services",
+      path: "/#Services",
+      icon: <MdOutlineSpaceDashboard />,
+    },
+    {
+      title: "Certification",
+      path: "/#Certification",
+      icon: <TbCertificate />,
+    },
     { title: "Projects", path: "/#Projects", icon: <FaCode /> },
-    { title: "Contact Me", path: "#", icon: <MdOutlineEmail /> },
+    { title: "Contact Me", path: "/#Contact", icon: <MdOutlineEmail /> },
   ];
 
   useEffect(() => {

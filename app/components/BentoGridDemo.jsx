@@ -42,8 +42,7 @@ const items = [
   },
   {
     title: "Latest Project",
-    description:
-      "CareerBoost AI — AI-powered mock interview platform helping candidates level up.",
+    description: "AutoCompose — AI Powered Email Template Builder",
     header: (
       <img
         src="/img2.jpg"
