@@ -1,1 +1,3 @@
-<img src="/portfolio_img.png" alt="DemoImg"/>
+### Portfolio
+
+<img src="public/portfolio_img.png" alt="DemoImg"/>
