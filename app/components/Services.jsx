@@ -31,9 +31,9 @@ function Services() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
-                  className="cursor-none"
+                  className=""
                 >
-                  <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                     <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       Contact Me
                     </span>
@@ -60,9 +60,9 @@ function Services() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
-                  className="cursor-none"
+                  className=""
                 >
-                  <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                     <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       Contact Me
                     </span>
@@ -88,9 +88,9 @@ function Services() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
-                  className="cursor-none"
+                  className=""
                 >
-                  <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                     <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       Contact Me
                     </span>
@@ -116,9 +116,9 @@ function Services() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
-                  className="cursor-none"
+                  className=""
                 >
-                  <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                     <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       Contact Me
                     </span>
@@ -144,9 +144,9 @@ function Services() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
-                  className="cursor-none"
+                  className=""
                 >
-                  <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                     <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       Contact Me
                     </span>
@@ -173,9 +173,9 @@ function Services() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
-                  className="cursor-none"
+                  className=""
                 >
-                  <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                     <span className="w-full h-full flex items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       Contact Me
                     </span>

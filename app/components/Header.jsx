@@ -56,7 +56,7 @@ function Header() {
                       >
                         <Link
                           href={item.path}
-                          className="block md:flex items-center gap-2 md:text-[16px] cursor-none"
+                          className="block md:flex items-center gap-2 md:text-[16px]"
                         >
                           {item.title}
                           {item.icon}

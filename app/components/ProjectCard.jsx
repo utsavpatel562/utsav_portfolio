@@ -1,5 +1,6 @@
 import { AvatarCircles } from "@/components/magicui/avatar-circles";
 import React from "react";
+import { FaCodepen } from "react-icons/fa6";
 import { MdOutlinePreview } from "react-icons/md";
 function ProjectCard() {
   const autocompose = [
@@ -117,8 +118,8 @@ function ProjectCard() {
               </div>
             </div>
             <a
-              href="https://github.com/utsavpatel562/AutoCompose"
-              className="cursor-none"
+              href="https://auto-compose.vercel.app/"
+              className=""
               target="_blank"
             >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
@@ -141,11 +142,11 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={autocompose} />
-                <a href="https://auto-compose.vercel.app" target="_blank">
-                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                      Live Preview
-                      <MdOutlinePreview className="w-5 h-5" />
+                <a href="#" target="_blank">
+                  <button className="relative cursor-pointer md:mt-0 mt-3 w-full md:w-fit opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Know More
+                      <FaCodepen className="w-4 h-4" />
                     </span>
                   </button>
                 </a>
@@ -168,8 +169,8 @@ function ProjectCard() {
               </div>
             </div>
             <a
-              href="https://github.com/utsavpatel562/CareerBoost-AI"
-              className="cursor-none"
+              href="https://career-boost-ai.vercel.app/"
+              className=""
               target="_blank"
             >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
@@ -192,11 +193,11 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={carrerboost} />
-                <a href="https://career-boost-ai.vercel.app" target="_blank">
-                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                      Live Preview
-                      <MdOutlinePreview className="w-5 h-5" />
+                <a href="#" target="_blank">
+                  <button className="relative cursor-pointer md:mt-0 mt-3 w-full md:w-fit opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Know More
+                      <FaCodepen className="w-4 h-4" />
                     </span>
                   </button>
                 </a>
@@ -219,8 +220,8 @@ function ProjectCard() {
               </div>
             </div>
             <a
-              href="https://github.com/utsavpatel562/CarConnect"
-              className="cursor-none"
+              href="https://car-connect-marketplace.netlify.app"
+              className=""
               target="_blank"
             >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
@@ -243,14 +244,11 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={carconnect} />
-                <a
-                  href="https://car-connect-marketplace.netlify.app"
-                  target="_blank"
-                >
-                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                      Live Preview
-                      <MdOutlinePreview className="w-5 h-5" />
+                <a href="#" target="_blank">
+                  <button className="relative cursor-pointer md:mt-0 mt-3 w-full md:w-fit opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Know More
+                      <FaCodepen className="w-4 h-4" />
                     </span>
                   </button>
                 </a>
@@ -273,8 +271,8 @@ function ProjectCard() {
               </div>
             </div>
             <a
-              href="https://github.com/utsavpatel562/Zoom-Clone"
-              className="cursor-none"
+              href="https://zoom-clone-iota-six.vercel.app"
+              className=""
               target="_blank"
             >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
@@ -297,14 +295,11 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={zoomclone} />
-                <a
-                  href="https://zoom-clone-iota-six.vercel.app"
-                  target="_blank"
-                >
-                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                    <span className="w-full justify-center h-full flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                      Live Preview
-                      <MdOutlinePreview className="w-5 h-5" />
+                <a href="#" target="_blank">
+                  <button className="relative cursor-pointer md:mt-0 mt-3 w-full md:w-fit opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Know More
+                      <FaCodepen className="w-4 h-4" />
                     </span>
                   </button>
                 </a>
@@ -328,7 +323,7 @@ function ProjectCard() {
             </div>
             <a
               href="https://www.tinkercad.com/things/hMNGaY5Yu2w-home-automation-system"
-              className="cursor-none"
+              className=""
               target="_blank"
             >
               <h2 className="p-2 md:pr-4 text-slate-50 hover:text-purple-300">
@@ -351,14 +346,11 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={arduino} />
-                <a
-                  href="https://www.tinkercad.com/things/hMNGaY5Yu2w-home-automation-system"
-                  target="_blank"
-                >
-                  <button className="relative md:mt-0 mt-3 w-full md:w-fit cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                <a href="#" target="_blank">
+                  <button className="relative cursor-pointer md:mt-0 mt-3 w-full md:w-fit opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                     <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                      Live Preview
-                      <MdOutlinePreview className="w-5 h-5" />
+                      Know More
+                      <FaCodepen className="w-4 h-4" />
                     </span>
                   </button>
                 </a>

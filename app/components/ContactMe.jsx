@@ -24,10 +24,10 @@ function ContactMe() {
           <div className="mt-5 md:flex block items-center gap-2">
             <a
               href="https://www.linkedin.com/in/utsav-patel-coder"
-              className="cursor-none"
+              className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   LinkedIn <FaLinkedin />
                 </span>
@@ -35,10 +35,10 @@ function ContactMe() {
             </a>
             <a
               href="https://github.com/utsavpatel562"
-              className="cursor-none"
+              className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   GitHub <GrGithub />
                 </span>
@@ -46,10 +46,10 @@ function ContactMe() {
             </a>
             <a
               href="https://www.hackerrank.com/certificates/02138479e109"
-              className="cursor-none"
+              className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   HackerRank <SiHackerrank />
                 </span>
@@ -57,10 +57,10 @@ function ContactMe() {
             </a>
             <a
               href="mailto:utsavpatel562@gmail.com"
-              className="cursor-none"
+              className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   Email <Mail className="w-5 h-5" />
                 </span>

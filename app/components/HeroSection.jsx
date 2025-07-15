@@ -18,7 +18,7 @@ function HeroSection() {
                 code.
               </p>
               <div className="flex flex-col md:flex-row gap-2 mt-4">
-                <button className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                <button className="relative opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                   <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                     About Me
                   </span>
@@ -26,7 +26,7 @@ function HeroSection() {
                 <a
                   href="/UTSAV_PATEL_RESUME.pdf"
                   download
-                  className="relative cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
+                  className="relative opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
                 >
                   <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#B931FC] text-white rounded-lg bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                     Download Resume
