@@ -61,8 +61,8 @@ export default function Iphone15Pro({
       {videoSrc && (
         <foreignObject x="21.25" y="19.25" width="389.5" height="843.5">
           <video
-            className="size-full overflow-hidden rounded-[55.75px] object-cover object-bottom-left"
-            src="/coding_vid.mp4"
+            className="size-full overflow-hidden rounded-[55.75px] object-cover object-top-left"
+            src="/code2.mp4"
             autoPlay
             loop
             muted

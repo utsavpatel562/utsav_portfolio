@@ -10,6 +10,7 @@ import Certificate from "./components/Certificate";
 import RotatingLang from "./components/RotatingLang";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
    <AnimatedListDemo className="p-5 md:p-0"/>
    </div>
    <div className="bg-slate-950 md:p-10 p-5">
-   <SmoothCursor />
+    <Experience/>
+   </div>
+   <div className="bg-slate-950 md:p-10 p-5">
+   {/*<SmoothCursor />*/}
    <h2 className="text-slate-50 text-center font-semibold md:text-5xl mb-8 md:mb-15 text-2xl">My Projects</h2>
     <ProjectCard/>
    </div>
