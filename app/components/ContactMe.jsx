@@ -27,7 +27,7 @@ function ContactMe() {
               className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit cursor-pointer w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   LinkedIn <FaLinkedin />
                 </span>
@@ -38,7 +38,7 @@ function ContactMe() {
               className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit cursor-pointer w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   GitHub <GrGithub />
                 </span>
@@ -49,7 +49,7 @@ function ContactMe() {
               className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit cursor-pointer w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   HackerRank <SiHackerrank />
                 </span>
@@ -60,7 +60,7 @@ function ContactMe() {
               className=""
               target="_blank"
             >
-              <button className="relative md:w-fit w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
+              <button className="relative md:w-fit cursor-pointer w-full md:mb-0 mb-2 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95">
                 <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#B931FC] text-white rounded-md bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                   Email <Mail className="w-5 h-5" />
                 </span>

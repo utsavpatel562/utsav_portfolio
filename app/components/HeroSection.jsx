@@ -18,11 +18,16 @@ function HeroSection() {
                 code.
               </p>
               <div className="flex flex-col md:flex-row gap-2 mt-4">
-                <button className="relative opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                  <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                    About Me
-                  </span>
-                </button>
+                <a
+                  href="https://www.linkedin.com/in/utsav-patel-coder"
+                  target="_blank"
+                >
+                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                    <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      Connect
+                    </span>
+                  </button>
+                </a>
                 <a
                   href="/UTSAV_PATEL_RESUME.pdf"
                   download
