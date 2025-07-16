@@ -30,7 +30,7 @@ function Certificate() {
                 target="_blank"
                 className="cursor-pointer"
               >
-                <button className="relative w-full cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                <button className="relative w-full cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                   <span className="w-full h-full justify-center flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                     View Certificate <LuFileBadge2 />
                   </span>
@@ -59,7 +59,7 @@ function Certificate() {
                 target="_blank"
                 className="cursor-pointer"
               >
-                <button className="relative w-full cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                <button className="relative w-full cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                   <span className="w-full h-full justify-center flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                     View Certificate <LuFileBadge2 />
                   </span>
@@ -83,7 +83,7 @@ function Certificate() {
               <h2 className="text-lg mt-2">Issued by MongoDB</h2>
             </div>
             <div className="p-5 md:mt-0 -mt-5">
-              <button className="relative w-full cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+              <button className="relative w-full cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                 <span className="w-full h-full justify-center flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                   View Certificate <LuFileBadge2 />
                 </span>
@@ -106,7 +106,7 @@ function Certificate() {
               <h2 className="text-lg mt-2">Issued by Google</h2>
             </div>
             <div className="p-5 md:mt-0 -mt-5">
-              <button className="relative w-full cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+              <button className="relative w-full cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                 <span className="w-full h-full justify-center flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                   View Certificate <LuFileBadge2 />
                 </span>
@@ -134,7 +134,7 @@ function Certificate() {
                 target="_blank"
                 className="cursor-pointer"
               >
-                <button className="relative w-full cursor-none opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                <button className="relative w-full cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                   <span className="w-full h-full justify-center flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                     View Certificate <LuFileBadge2 />
                   </span>

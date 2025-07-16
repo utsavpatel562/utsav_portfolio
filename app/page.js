@@ -2,12 +2,10 @@
 import { BentoGridSecondDemo } from "./components/BentoGridDemo";
 import HeroSection from "./components/HeroSection";
 import AnimatedListDemo from "./components/TechStack";
-import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import ProjectCard from "./components/ProjectCard";
 import Services from "./components/Services";
 import { Iphone15ProDemo } from "./components/Iphone";
 import Certificate from "./components/Certificate";
-import RotatingLang from "./components/RotatingLang";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
