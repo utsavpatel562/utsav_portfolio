@@ -2,25 +2,32 @@
 import React from "react";
 import Header from "../components/Header";
 import { Safari } from "@/components/magicui/safari";
+import { FaCode } from "react-icons/fa6";
+import { RxDashboard } from "react-icons/rx";
+import { TiTick } from "react-icons/ti";
 
 function About_Page() {
+  const features = [
+    "Drag & Drop Layout Builder",
+    "AI-Powered Template Generation",
+    "Save & Reuse Templates",
+    "Google OAuth Authentication",
+    "Realtime Data Management",
+  ];
+
   return (
     <>
       <Header />
       <div>
-        <div
-          className="flex md:p-10 items-start gap-5 bg-gradient-to-b from-slate-950 to-slate-900"
-          style={{
-            background: "",
-          }}
-        >
-          <div className="">
+        <div className="flex flex-col md:flex-row md:p-10 p-4 items-start gap-6 md:gap-10 bg-gradient-to-t from-slate-950 to-slate-900">
+          {/* Left Section */}
+          <div className="w-full">
             <div>
-              <div className="md:p-3 md:mb-5">
-                <h2 className="text-purple-300 md:text-2xl font-semibold">
+              <div className="md:p-3 mb-4 md:mb-5">
+                <h2 className="text-purple-300 text-xl md:text-3xl font-semibold">
                   AutoCompose - AI Email Template Builder
                 </h2>
-                <p className="text-slate-100 text-justify md:mt-2">
+                <p className="text-slate-100 text-justify text-sm md:text-[18px] mt-2">
                   AutoCompose is a powerful AI-powered Email Template Generator
                   🚀 - featuring an intuitive drag & drop layout builder, save &
                   reuse templates, and custom branding options, all built with a
@@ -30,7 +37,73 @@ function About_Page() {
               <Safari videoSrc={"/autocompose.mp4"} className="w-full h-fit" />
             </div>
           </div>
-          <div className="w-full"></div>
+
+          {/* Right Section */}
+          <div className="w-full">
+            <div className="flex flex-col md:flex-row gap-3">
+              {/* Tech Stack Card */}
+              <div className="group relative md:w-[50%] w-full">
+                <div className="absolute -inset-1 rounded-xl bg-gradient-to-r opacity-20 blur-xl transition-all duration-500 group-hover:opacity-50 group-hover:blur-2xl" />
+                <div className="relative flex flex-col gap-2 rounded-xl border border-slate-800 bg-slate-950 p-3 md:p-5 pr-4 md:pb-8">
+                  <h2 className="flex items-center gap-2 text-orange-300 text-lg md:text-xl font-semibold">
+                    <FaCode className="w-5 h-5" />
+                    Tech Stack
+                  </h2>
+                  <div className="mt-4 md:mt-5 grid grid-cols-4 sm:grid-cols-4 gap-3 items-center">
+                    {[
+                      { src: "/nextjs2.png", label: "Next.js" },
+                      { src: "/nodejs.png", label: "Node.js" },
+                      { src: "/react.png", label: "React.js" },
+                      { src: "/convex.png", label: "Convex" },
+                      { src: "/gemini.png", label: "Gemini AI" },
+                      { src: "/tailwind.png", label: "Tailwind" },
+                      { src: "/gcp.png", label: "GCP" },
+                      { src: "/js.png", label: "Javascript" },
+                    ].map((tech, i) => (
+                      <div key={i} className="justify-center text-center">
+                        <img
+                          src={tech.src}
+                          className="bg-slate-900 border border-slate-800 object-contain p-1 rounded-md w-[40px] h-[40px] mx-auto"
+                          alt={tech.label}
+                        />
+                        <h3 className="text-slate-50 font-light mt-1 text-xs md:text-sm">
+                          {tech.label}
+                        </h3>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-teal-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                  <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                </div>
+              </div>
+
+              {/* Features Card */}
+              <div className="group relative md:w-[50%] w-full">
+                <div className="absolute -inset-1 rounded-xl bg-gradient-to-r opacity-20 blur-xl transition-all duration-500 group-hover:opacity-50 group-hover:blur-2xl" />
+                <div className="relative flex flex-col items-start gap-2 rounded-xl border border-slate-800 bg-slate-950 p-3 md:p-5 pr-4">
+                  <h2 className="flex items-center gap-2 text-orange-300 text-lg md:text-xl font-semibold">
+                    <RxDashboard className="w-5 h-5" />
+                    Top Features
+                  </h2>
+                  <div className="mt-4 md:mt-5 w-full">
+                    <ul className="text-slate-100 space-y-2 text-sm md:text-base">
+                      {features.map((feature, index) => (
+                        <li
+                          key={index}
+                          className="flex items-center font-light gap-2"
+                        >
+                          <TiTick className="w-5 h-5 text-orange-300" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-teal-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                  <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

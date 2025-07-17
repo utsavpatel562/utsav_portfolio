@@ -10,7 +10,7 @@ function Experience() {
   return (
     <>
       <div>
-        <section className="relative py-14 md:mt-0 mt-10  bg-gray-900 rounded-2xl">
+        <section className="relative py-14 md:mt-0 mt-10 p-4  bg-gray-900 rounded-2xl">
           <div
             className="absolute inset-0 blur-[118px] h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
             style={{
