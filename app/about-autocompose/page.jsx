@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Header from "../components/Header";
 import { Safari } from "@/components/magicui/safari";
-import { FaCode } from "react-icons/fa6";
+import { FaCode, FaRegCopy } from "react-icons/fa6";
 import { RxDashboard } from "react-icons/rx";
 import { TiTick } from "react-icons/ti";
+import { LuSquareTerminal } from "react-icons/lu";
 
 function About_Page() {
   const features = [
@@ -14,7 +15,16 @@ function About_Page() {
     "Google OAuth Authentication",
     "Realtime Data Management",
   ];
+  const [copied, setCopied] = useState(false);
+  const cloneCommand =
+    "git clone https://github.com/utsavpatel562/AutoCompose.git";
 
+  const handleCopy = () => {
+    navigator.clipboard.writeText(cloneCommand).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
+    });
+  };
   return (
     <>
       <Header />
@@ -23,8 +33,8 @@ function About_Page() {
           {/* Left Section */}
           <div className="w-full">
             <div>
-              <div className="md:p-3 mb-4 md:mb-5">
-                <h2 className="text-purple-300 text-xl md:text-3xl font-semibold">
+              <div className="md:p-3 mb-6 md:mb-5">
+                <h2 className="text-purple-300 text-lg md:text-left text-center md:text-3xl font-semibold">
                   AutoCompose - AI Email Template Builder
                 </h2>
                 <p className="text-slate-100 text-justify text-sm md:text-[18px] mt-2">
@@ -34,7 +44,13 @@ function About_Page() {
                   modern tech stack.
                 </p>
               </div>
-              <Safari videoSrc={"/autocompose.mp4"} className="w-full h-fit" />
+              <div className="w-full">
+                <Safari
+                  url={"https://auto-compose.vercel.app"}
+                  videoSrc={"/autocompose.mp4"}
+                  className="w-full h-auto max-w-full"
+                />
+              </div>
             </div>
           </div>
 
@@ -103,6 +119,46 @@ function About_Page() {
                 </div>
               </div>
             </div>
+            {/*Code installation*/}
+            <div>
+              <div className="group relative w-full mt-3">
+                <div className="absolute -inset-1 rounded-xl bg-gradient-to-r opacity-20 blur-xl transition-all duration-500 group-hover:opacity-50 group-hover:blur-2xl" />
+                <div className="relative flex flex-col items-start gap-2 rounded-xl border border-slate-800 bg-slate-950 p-3 md:p-5 pr-4">
+                  <h2 className="flex items-center gap-2 text-orange-300 text-lg md:text-xl font-semibold">
+                    <LuSquareTerminal className="w-5 h-5" />
+                    Installation
+                  </h2>
+                  <p className="text-slate-50">
+                    Run the following command in your terminal to install the
+                    project
+                  </p>
+                  <div className="mt-4 md:mt-2 w-full">
+                    <span className="bg-zinc-800 flex gap-5 items-center justify-between py-3 px-5 rounded-full">
+                      <code className="text-slate-50 text-left whitespace-nowrap overflow-hidden overflow-ellipsis">
+                        git clone{" "}
+                        <span className="text-amber-100">
+                          https://github.com/utsavpatel562/AutoCompose.git
+                        </span>
+                      </code>
+                      <button
+                        onClick={handleCopy}
+                        className="text-slate-50 cursor-pointer hover:text-orange-300 transition-colors"
+                        aria-label="Copy to clipboard"
+                      >
+                        {copied ? (
+                          <TiTick className="w-5 h-5 text-orange-300" />
+                        ) : (
+                          <FaRegCopy className="w-5 h-5" />
+                        )}
+                      </button>
+                    </span>
+                  </div>
+                  <div className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-teal-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                  <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                </div>
+              </div>
+            </div>
+            {/*end*/}
           </div>
         </div>
       </div>

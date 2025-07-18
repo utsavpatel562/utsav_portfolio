@@ -43,12 +43,12 @@ function Header() {
   ];
   return (
     <div className="bg-gray-900">
-      <header className="relative">
+      <header className="">
         <nav
           id="nav-container"
           className={`pb-5 md:text-sm transition-all duration-300 ${
             state
-              ? "absolute z-20 top-0 inset-x-0 bg-gray-800 rounded-xl mx-2 mt-2 md:mx-0 md:mt-0 md:relative md:bg-transparent"
+              ? "absolute z-20 top-0 inset-x-0 bg-gray-800 rounded-xl md:mx-0 md:mt-0 md:relative md:bg-transparent"
               : ""
           }`}
         >

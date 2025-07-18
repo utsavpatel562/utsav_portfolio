@@ -21,13 +21,14 @@ function HeroSection() {
                 <a
                   href="https://www.linkedin.com/in/utsav-patel-coder"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95"
                 >
-                  <button className="relative opacity-90 cursor-pointer hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
-                    <span className="w-full h-full flex items-center gap-2 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
-                      Connect
-                    </span>
-                  </button>
+                  <span className="flex items-center gap-2 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                    Connect
+                  </span>
                 </a>
+
                 <a
                   href="/UTSAV_PATEL_RESUME.pdf"
                   download
@@ -46,8 +47,9 @@ function HeroSection() {
               />
             </div>
           </div>
+          {/* FIX: Prevent this from blocking interaction */}
           <div
-            className="absolute inset-0 m-auto max-w-xs h-[357px] blur-[118px] sm:max-w-md md:max-w-lg"
+            className="pointer-events-none absolute inset-0 m-auto max-w-xs h-[357px] blur-[118px] sm:max-w-md md:max-w-lg"
             style={{
               background:
                 "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)",
