@@ -6,6 +6,9 @@ import { FaCode, FaRegCopy } from "react-icons/fa6";
 import { RxDashboard } from "react-icons/rx";
 import { TiTick } from "react-icons/ti";
 import { LuSquareTerminal } from "react-icons/lu";
+import { MdOutlinePreview } from "react-icons/md";
+import { IoLogoGithub } from "react-icons/io";
+import Footer from "../components/Footer";
 
 function About_Page() {
   const features = [
@@ -15,7 +18,15 @@ function About_Page() {
     "Google OAuth Authentication",
     "Realtime Data Management",
   ];
+  const envVariables = `
+CONVEX_DEPLOYMENT=YOUR_API_KEY_HERE
+NEXT_PUBLIC_CONVEX_URL=YOUR_API_KEY_HERE
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=YOUR_API_KEY_HERE
+NEXT_PUBLIC_GEMINI_API_KEY=YOUR_API_KEY_HERE
+`;
+
   const [copied, setCopied] = useState(false);
+  const [copiedEnv, setCopiedEnv] = useState(false);
   const cloneCommand =
     "git clone https://github.com/utsavpatel562/AutoCompose.git";
 
@@ -34,7 +45,7 @@ function About_Page() {
           <div className="w-full">
             <div>
               <div className="md:p-3 mb-6 md:mb-5">
-                <h2 className="text-purple-300 text-lg md:text-left text-center md:text-3xl font-semibold">
+                <h2 className="text-purple-300 text-lg md:text-left text-center md:text-3xl font-bold">
                   AutoCompose - AI Email Template Builder
                 </h2>
                 <p className="text-slate-100 text-justify text-sm md:text-[18px] mt-2">
@@ -153,6 +164,35 @@ function About_Page() {
                       </button>
                     </span>
                   </div>
+                  {/*Environment Variables*/}
+                  {/*Environment Variables*/}
+                  <p className="text-slate-50">
+                    Setup your environment variables in the .env file
+                  </p>
+                  <div className="mt-4 md:mt-2 w-full">
+                    <div className="relative bg-zinc-800 rounded-xl p-4 overflow-x-auto">
+                      <pre className="text-slate-50 text-sm whitespace-pre-wrap break-words">
+                        <code>{envVariables}</code>
+                      </pre>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText(envVariables);
+                          setCopiedEnv(true);
+                          setTimeout(() => setCopiedEnv(false), 2000);
+                        }}
+                        className="absolute cursor-pointer top-3 right-5 text-slate-50 hover:text-orange-300 transition-colors"
+                        aria-label="Copy environment variables"
+                      >
+                        {copiedEnv ? (
+                          <TiTick className="w-5 h-5 text-orange-300" />
+                        ) : (
+                          <FaRegCopy className="w-5 h-5" />
+                        )}
+                      </button>
+                    </div>
+                  </div>
+
+                  {/*End of Env*/}
                   <div className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-teal-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 </div>
@@ -161,6 +201,62 @@ function About_Page() {
             {/*end*/}
           </div>
         </div>
+        {/*Live Preview and GitHub*/}
+        <div className="bg-slate-950 py-24 md:p-0 md:pr-2 md:pl-2 sm:py-32 md:pb-10">
+          <div className="mx-auto sm:px-6">
+            <div className="relative md:border md:border-zinc-600 isolate overflow-clip bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+              <div
+                aria-hidden="true"
+                className="absolute right-0 top-0 -z-10 aspect-square w-full max-w-3xl translate-x-3/4 rounded-full bg-purple-800/60 blur-[10rem] lg:-top-[40rem] lg:left-1/2 lg:-translate-x-1/2"
+              ></div>
+              <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-24 lg:text-start">
+                <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+                  Preview the Web App and Quick Setup with Ease
+                </h2>
+                <p className="mt-6 text-base text-gray-300">
+                  Explore the app and set it up locally with a single command.
+                </p>
+                <div className="mt-6 flex items-center justify-center gap-2 lg:justify-start">
+                  <a
+                    href="https://auto-compose.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95"
+                  >
+                    <span className="flex items-center gap-1 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                      <MdOutlinePreview className="w-5 h-5 hidden sm:inline" />{" "}
+                      Live Preview
+                    </span>
+                  </a>
+
+                  <a
+                    href="https://github.com/utsavpatel562/AutoCompose"
+                    target="_blank"
+                    className="relative opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
+                  >
+                    <span className="w-full h-full flex items-center gap-1 px-8 py-3 bg-[#B931FC] text-white rounded-lg bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
+                      <IoLogoGithub className="w-5 h-5 hidden sm:inline" />
+                      View GitHub
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="relative mt-16 h-80 lg:mt-8 lg:h-auto">
+                <img
+                  width="1920"
+                  height="1139"
+                  className="absolute left-0 top-0 w-[85rem] max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10 lg:top-14 transition-transform duration-300 ease-in-out hover:scale-95"
+                  src="/github_img2.png"
+                  alt="img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*End of the section*/}
+      </div>
+      <div className="bg-slate-950 pb-10 md:pt-1 p-8">
+        <Footer />
       </div>
     </>
   );

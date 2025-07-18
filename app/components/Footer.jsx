@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <SparklesText>Made with ❤️ by Utsav Patel</SparklesText>;
+      <SparklesText>Made with ❤️ by Utsav Patel</SparklesText>
     </>
   );
 }
