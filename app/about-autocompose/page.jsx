@@ -19,10 +19,10 @@ function About_Page() {
     "Realtime Data Management",
   ];
   const envVariables = `
-CONVEX_DEPLOYMENT=YOUR_API_KEY_HERE
-NEXT_PUBLIC_CONVEX_URL=YOUR_API_KEY_HERE
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=YOUR_API_KEY_HERE
-NEXT_PUBLIC_GEMINI_API_KEY=YOUR_API_KEY_HERE
+CONVEX_DEPLOYMENT = YOUR_API_KEY_HERE
+NEXT_PUBLIC_CONVEX_URL = YOUR_API_KEY_HERE
+NEXT_PUBLIC_GOOGLE_CLIENT_ID = YOUR_API_KEY_HERE
+NEXT_PUBLIC_GEMINI_API_KEY = YOUR_API_KEY_HERE
 `;
 
   const [copied, setCopied] = useState(false);
@@ -55,11 +55,11 @@ NEXT_PUBLIC_GEMINI_API_KEY=YOUR_API_KEY_HERE
                   modern tech stack.
                 </p>
               </div>
-              <div className="w-full">
+              <div className="w-full hidden sm:inline">
                 <Safari
                   url={"https://auto-compose.vercel.app"}
                   videoSrc={"/autocompose.mp4"}
-                  className="w-full h-auto max-w-full"
+                  className="md:w-full h-auto md:max-w-full max-w-full"
                 />
               </div>
             </div>
@@ -221,7 +221,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=YOUR_API_KEY_HERE
                     href="https://auto-compose.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95"
+                    className="inline-block opacity-90 md:mb-0 mb-15 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95"
                   >
                     <span className="flex items-center gap-1 px-8 py-3 bg-[#fc8931] text-white rounded-lg bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                       <MdOutlinePreview className="w-5 h-5 hidden sm:inline" />{" "}
@@ -232,7 +232,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=YOUR_API_KEY_HERE
                   <a
                     href="https://github.com/utsavpatel562/AutoCompose"
                     target="_blank"
-                    className="relative opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
+                    className="relative opacity-90 md:mb-0 mb-15 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
                   >
                     <span className="w-full h-full flex items-center gap-1 px-8 py-3 bg-[#B931FC] text-white rounded-lg bg-gradient-to-t from-[#a62ce2] to-[#c045fc]">
                       <IoLogoGithub className="w-5 h-5 hidden sm:inline" />
@@ -241,7 +241,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=YOUR_API_KEY_HERE
                   </a>
                 </div>
               </div>
-              <div className="relative mt-16 h-80 lg:mt-8 lg:h-auto">
+              <div className="hidden sm:inline relative mt-16 h-80 lg:mt-8 lg:h-auto">
                 <img
                   width="1920"
                   height="1139"
