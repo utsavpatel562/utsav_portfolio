@@ -85,10 +85,10 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                       { src: "/nextjs2.png", label: "Next.js" },
                       { src: "/nodejs.png", label: "Node.js" },
                       { src: "/react.png", label: "React.js" },
-                      { src: "/convex.png", label: "Convex" },
+                      { src: "/drizzle.png", label: "Drizzle" },
                       { src: "/gemini.png", label: "Gemini AI" },
                       { src: "/tailwind.png", label: "Tailwind" },
-                      { src: "/gcp.png", label: "GCP" },
+                      { src: "/clerk.png", label: "Clerk" },
                       { src: "/js.png", label: "Javascript" },
                     ].map((tech, i) => (
                       <div key={i} className="justify-center text-center">
@@ -250,7 +250,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                   width="1920"
                   height="1139"
                   className="absolute left-0 top-0 w-[85rem] max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10 lg:top-14 transition-transform duration-300 ease-in-out hover:scale-95"
-                  src="/github_img2.png"
+                  src="/github_img3.png"
                   alt="img"
                 />
               </div>
