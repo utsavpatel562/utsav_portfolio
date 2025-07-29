@@ -246,14 +246,14 @@ function ProjectCard() {
               </p>
               <div className="md:flex block items-center justify-between mt-5">
                 <AvatarCircles avatarUrls={carconnect} />
-                <a href="#" target="_blank">
+                <Link href="/about-carconnect" target="_blank">
                   <button className="relative cursor-pointer md:mt-0 mt-3 w-full md:w-fit opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
                     <span className="w-full h-full flex justify-center items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
                       Know More
                       <FaCodepen className="w-4 h-4" />
                     </span>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

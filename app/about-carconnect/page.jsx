@@ -12,26 +12,30 @@ import Footer from "../components/Footer";
 
 function About_Page() {
   const features = [
-    "AI Mock Interviews",
-    "AI-Powered Feedback",
-    "Secure User Authentication",
-    "Database Integration",
-    "Modern UI",
+    "Real-time Messaging with Sendbird",
+    "API Integration with Acernity",
+    "Data Management with Drizzle ORM",
+    "Secure Authentication with Clerk",
+    "Mock Data with Faker.dev",
   ];
   const envVariables = `
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = YOUR_API_KEY_HERE
-CLERK_SECRET_KEY = YOUR_API_KEY_HERE
-NEXT_PUBLIC_CLERK_SIGN_IN_URL = YOUR_API_KEY_HERE
-NEXT_PUBLIC_CLERK_SIGN_UP_URL = YOUR_API_KEY_HERE
-NEXT_PUBLIC_DRIZZLE_DB_URL = YOUR_API_KEY_HERE
-NEXT_PUBLIC_GEMINI_API_KEY = YOUR_API_KEY_HERE
-NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
+VITE_CLERK_PUBLISHABLE_KEY = YOUR_API_KEY_HERE
+VITE_DRIZZLE_DATABASE_URL = YOUR_API_KEY_HERE
+VITE_FIREBASE_API_KEY = YOUR_API_KEY_HERE
+VITE_FIREBASE_AUTH_DOMAIN = YOUR_API_KEY_HERE
+VITE_FIREBASE_PROJECT_ID = YOUR_API_KEY_HERE
+VITE_FIREBASE_STORAGE_BUCKET = YOUR_API_KEY_HERE
+VITE_FIREBASE_MESSAGING_SENDER_ID = YOUR_API_KEY_HERE
+VITE_FIREBASE_APP_ID = YOUR_API_KEY_HERE
+VITE_FIREBASE_MEASUREMENT_ID = YOUR_API_KEY_HERE
+VITE_SENDBIRD_APP_ID = YOUR_API_KEY_HERE
+VITE_SENDBIRD_API_TOKEN = YOUR_API_KEY_HERE
 `;
 
   const [copied, setCopied] = useState(false);
   const [copiedEnv, setCopiedEnv] = useState(false);
   const cloneCommand =
-    "git clone https://github.com/utsavpatel562/CareerBoost-AI.git";
+    "git clone https://github.com/utsavpatel562/CarConnect.git";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(cloneCommand).then(() => {
@@ -49,20 +53,24 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
             <div>
               <div className="md:p-3 mb-6 md:mb-5">
                 <h2 className="text-purple-300 text-lg md:text-left text-center md:text-3xl font-bold">
-                  CareerBoostAI - Mock Interview App
+                  CarConnect: A Marketplace for Cars
                 </h2>
                 <p className="text-slate-100 text-justify text-sm md:text-[18px] mt-2">
-                  Full Stack AI Mock Interview App project! In this tutorial,
-                  we'll build a powerful AI driven mock interview application
-                  using modern technologies. This app leverages React, Drizzle
-                  ORM, Gemini AI, and Clerk to provide an interactive and
-                  realistic interview experience.
+                  This full-stack application is designed with performance,
+                  scalability, and user engagement in mind. It leverages a
+                  modern tech stack to deliver an intuitive, responsive, and
+                  secure user experience. From seamless car listings to
+                  real-time messaging and personalized dashboards, every feature
+                  is crafted to simplify transactions and enhance user trust.
+                  With cloud integration, robust authentication, and an elegant
+                  UI, the platform ensures a smooth journey from browsing to
+                  buying
                 </p>
               </div>
               <div className="w-full hidden sm:inline">
                 <Safari
-                  url={"https://career-boost-ai.vercel.app/"}
-                  videoSrc={"/careerboostai.mp4"}
+                  url={"https://car-connect-marketplace.netlify.app"}
+                  videoSrc={"/carconnect.mp4"}
                   className="md:w-full h-auto md:max-w-full max-w-full"
                 />
               </div>
@@ -82,11 +90,11 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                   </h2>
                   <div className="mt-4 md:mt-5 grid grid-cols-4 sm:grid-cols-4 gap-3 items-center">
                     {[
-                      { src: "/nextjs2.png", label: "Next.js" },
+                      { src: "/sendbird.png", label: "Sendbird" },
                       { src: "/nodejs.png", label: "Node.js" },
                       { src: "/react.png", label: "React.js" },
                       { src: "/drizzle.png", label: "Drizzle" },
-                      { src: "/gemini.png", label: "Gemini AI" },
+                      { src: "/acernity.png", label: "Acernity UI" },
                       { src: "/tailwind.png", label: "Tailwind" },
                       { src: "/clerk.png", label: "Clerk" },
                       { src: "/js.png", label: "Javascript" },
@@ -152,7 +160,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                       <code className="text-slate-50 text-left whitespace-nowrap overflow-hidden overflow-ellipsis">
                         git clone{" "}
                         <span className="text-amber-100">
-                          https://github.com/utsavpatel562/CareerBoost-AI.git
+                          https://github.com/utsavpatel562/CarConnect.git
                         </span>
                       </code>
                       <button
@@ -222,7 +230,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                 </p>
                 <div className="mt-6 flex items-center justify-center gap-2 lg:justify-start">
                   <a
-                    href="https://career-boost-ai.vercel.app/"
+                    href="https://car-connect-marketplace.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block opacity-90 md:mb-0 mb-15 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95"
@@ -234,7 +242,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                   </a>
 
                   <a
-                    href="https://github.com/utsavpatel562/CareerBoost-AI.git"
+                    href="https://github.com/utsavpatel562/CarConnect.git"
                     target="_blank"
                     className="relative opacity-90 md:mb-0 mb-15 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
                   >
@@ -250,7 +258,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                   width="1920"
                   height="1139"
                   className="absolute left-0 top-0 w-[85rem] max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10 lg:top-14 transition-transform duration-300 ease-in-out hover:scale-95"
-                  src="/github_img3.png"
+                  src="/github_img4.png"
                   alt="img"
                 />
               </div>
