@@ -31,7 +31,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
   const [copied, setCopied] = useState(false);
   const [copiedEnv, setCopiedEnv] = useState(false);
   const cloneCommand =
-    "git clone https://github.com/utsavpatel562/CareerBoost-AI.git";
+    "git clone https://github.com/utsavpatel562/CarConnect.git";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(cloneCommand).then(() => {
@@ -49,14 +49,12 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
             <div>
               <div className="md:p-3 mb-6 md:mb-5">
                 <h2 className="text-purple-300 text-lg md:text-left text-center md:text-3xl font-bold">
-                  CareerBoostAI - Mock Interview App
+                  CarConnect: A Marketplace for Cars
                 </h2>
                 <p className="text-slate-100 text-justify text-sm md:text-[18px] mt-2">
-                  Full Stack AI Mock Interview App project! In this tutorial,
-                  we'll build a powerful AI driven mock interview application
-                  using modern technologies. This app leverages React, Drizzle
-                  ORM, Gemini AI, and Clerk to provide an interactive and
-                  realistic interview experience.
+                  the ultimate marketplace for buying and selling cars! This
+                  full-stack application is designed with performance,
+                  scalability, and user engagement in mind.
                 </p>
               </div>
               <div className="w-full hidden sm:inline">
@@ -152,7 +150,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                       <code className="text-slate-50 text-left whitespace-nowrap overflow-hidden overflow-ellipsis">
                         git clone{" "}
                         <span className="text-amber-100">
-                          https://github.com/utsavpatel562/CareerBoost-AI.git
+                          https://github.com/utsavpatel562/CarConnect.git
                         </span>
                       </code>
                       <button
@@ -222,7 +220,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                 </p>
                 <div className="mt-6 flex items-center justify-center gap-2 lg:justify-start">
                   <a
-                    href="https://career-boost-ai.vercel.app/"
+                    href="https://car-connect-marketplace.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block opacity-90 md:mb-0 mb-15 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95"
@@ -234,7 +232,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
                   </a>
 
                   <a
-                    href="https://github.com/utsavpatel562/CareerBoost-AI.git"
+                    href="https://github.com/utsavpatel562/CarConnect.git"
                     target="_blank"
                     className="relative opacity-90 md:mb-0 mb-15 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-lg bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale- 95"
                   >
