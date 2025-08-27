@@ -182,7 +182,7 @@ function ProjectCard() {
           </div>
           <div className="card__content">
             <div className="p-3">
-              <img src="/carrerboost.png" className="rounded-lg" />
+              <img src="/careerboost.png" className="rounded-lg" />
             </div>
             <div className="p-4 md:pt-0 mt-1">
               <h2 className="text-purple-200 font-semibold text-lg">

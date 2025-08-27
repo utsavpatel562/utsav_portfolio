@@ -62,7 +62,7 @@ NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT = YOUR_API_KEY_HERE
               <div className="w-full hidden sm:inline">
                 <Safari
                   url={"https://career-boost-ai.vercel.app/"}
-                  videoSrc={"/careerboostai.mp4"}
+                  videoSrc={"/careerboost.mp4"}
                   className="md:w-full h-auto md:max-w-full max-w-full"
                 />
               </div>
