@@ -155,7 +155,7 @@ function Experience() {
                           <h2 className="pb-2 bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-xl sm:text-xl">
                             Gujarat Technological University
                           </h2>
-                          <h2>Diploma Computer Programming (3yr)</h2>
+                          <h2>B.Tech in Computer Engineering (4yr)</h2>
                         </div>
                       </div>
                       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 md:gap-5 md:mt-3">
@@ -165,7 +165,7 @@ function Experience() {
                         </h2>
                         <h2 className="flex gap-2 items-center">
                           <LuCalendarDays />
-                          Aug 2019 - May 2022
+                          Aug 2019 - May 2023
                         </h2>
                       </div>
                       <div className="md:mt-2">
