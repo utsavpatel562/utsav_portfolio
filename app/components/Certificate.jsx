@@ -11,6 +11,35 @@ function Certificate() {
         My Certification
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-3">
+        {/*Certificate 0*/}
+        <div className="relative drop-shadow-xl w-full h-64 overflow-hidden rounded-xl bg-[#2e2e2e]">
+          <div className="absolute w-56 h-48 bg-slate-300 blur-[50px] -right-1/2 -bottom-1/2" />
+          <div className="absolute items-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#101010]">
+            <div className="p-5">
+              <div className="bg-slate-200 w-fit p-2 rounded-md mb-3 mt-1">
+                <GrOracle className="text-red-500 w-8 h-8" />
+              </div>
+              <h2 className="text-lg font-semibold text-purple-200">
+                OCI 2025 Certified DevOps Professional
+              </h2>
+              <h2 className="text-lg mt-2">Issued by Oracle</h2>
+            </div>
+            <div className="p-5 md:mt-0 -mt-5">
+              <a
+                href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=25C6D460FECEC3E2BDFFC75E6D28314728BD38D7A9EA2FAC91D8932CDA90FF2B"
+                target="_blank"
+                className="cursor-pointer"
+              >
+                <button className="relative w-full cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-md bg-gradient-to-t from-[#b07022] to-[#fde498] active:scale-95">
+                  <span className="w-full h-full justify-center flex items-center gap-2 px-8 py-2 bg-[#fc8931] text-white rounded-md bg-gradient-to-t from-[#e27e2c] to-[#fcbc45]">
+                    View Certificate <LuFileBadge2 />
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="absolute w-56 h-48 bg-purple-400 blur-[50px] -left-1/2 -top-1/2" />
+        </div>
         {/*Certificate 1*/}
         <div className="relative drop-shadow-xl w-full h-64 overflow-hidden rounded-xl bg-[#2e2e2e]">
           <div className="absolute w-56 h-48 bg-slate-300 blur-[50px] -right-1/2 -bottom-1/2" />

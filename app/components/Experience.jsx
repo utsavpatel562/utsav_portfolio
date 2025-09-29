@@ -44,6 +44,49 @@ function Experience() {
                         <MdWorkOutline className="w-5 h-5" />
                         Professional Experience
                       </h2>
+                      {/*BestBrains Experience*/}
+                      {/* BestBrains Experience */}
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mb-6">
+                        <img
+                          src={"/bestbrains.png"}
+                          className="md:w-[60px] w-[40px] rounded-sm"
+                        />
+                        <div className="w-full">
+                          <h2 className="block w-full pb-2 bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent md:text-xl sm:text-xs">
+                            BestBrains
+                          </h2>
+                          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+                            <h2>
+                              <span className="font-semibold">Role:</span>{" "}
+                              Coding Instructor
+                            </h2>
+                            <h2 className="flex gap-2 items-center">
+                              <LuCalendarDays />
+                              Sep 2025 - Present
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="md:mt-2">
+                        <h2 className="my-4 text-orange-300 text-md flex gap-2 items-center font-semibold">
+                          <TbUserStar className="w-5 h-5" />
+                          Work Responsibilities
+                        </h2>
+                        {[
+                          "Delivered coding lessons in Scratch, Python, and JavaScript, boosting average student project completion rates.",
+                          "Designed structured learning modules that improved knowledge retention scores by 30% in weekly assessments.",
+                        ].map((point, index) => (
+                          <p
+                            key={index}
+                            className="flex gap-2 my-4 bg-transparent font-medium leading-relaxed tracking-wide text-gray-400"
+                          >
+                            <GoDotFill className="w-5 h-5 md:mt-1" />
+                            {point}
+                          </p>
+                        ))}
+                      </div>
+                      {/*STEM Canada Experience*/}
                       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
                         <img
                           src={"/stem_canada.png"}
@@ -74,10 +117,6 @@ function Experience() {
                         {[
                           "Led a team of 5 developers, coordinating tasks and ensuring efficient delivery, improving team performance.",
                           "Built and customized WordPress CMS themes, enhancing flexibility and reducing content update time by 50%.",
-                          "Ensured accessibility compliance by applying WCAG 2.2 standards, contributing to faster delivery of features.",
-                          "Implemented unit testing across critical modules, reducing deployment bugs by 35% and improving reliability.",
-                          "Integrated third-party services and APIs, improving user interaction by 25% and ensuring seamless data flow.",
-                          "Optimized backend logic and server architecture, reducing response times by 40%, ensuring 99.9% uptime.",
                         ].map((point, index) => (
                           <p
                             key={index}
